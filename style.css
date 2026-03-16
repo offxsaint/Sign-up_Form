@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Norse-Font;
+  src: url(Norse-font/Norse/Norse.ttf);
+}
+
 .Odin-img {
     display: block;
     position: absolute;
@@ -6,11 +11,13 @@
     background-color: black;
     opacity: 75%;
     padding: 0.1rem;
+    
 }
+
 
 .image-text  {
     display: block;
-    font-family: "Norse Bold";;
+    font-family: Norse-Font;
     position: absolute;
     left: 5.2rem;
     top: 0rem;
