@@ -1,0 +1,22 @@
+.Odin-img {
+    display: block;
+    position: absolute;
+    left: 0.5rem;
+    top: 8rem;
+    background-color: black;
+    opacity: 75%;
+    padding: 0.1rem;
+}
+
+.image-text  {
+    display: block;
+    font-family: "Norse Bold";;
+    position: absolute;
+    left: 5.2rem;
+    top: 0rem;
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+    padding: 0.2rem;
+    opacity: 100%;
+}
