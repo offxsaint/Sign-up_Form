@@ -4,26 +4,42 @@
 }
 
 .Odin-img {
-    display: block;
+    display: flex;
     position: absolute;
+    align-items: center;
     left: 0.5rem;
     top: 8rem;
     background-color: black;
-    opacity: 75%;
-    padding: 0.1rem;
-    
+    opacity: 90%;
+    padding: 0.8rem;
 }
 
 
 .image-text  {
-    display: block;
+    display: flex;
     font-family: Norse-Font;
-    position: absolute;
-    left: 5.2rem;
-    top: 0rem;
     background-color: black;
     color: white;
-    font-size: 5rem;
-    padding: 0.2rem;
-    opacity: 100%;
+    font-size: 6rem;
+}
+
+.main-content {
+    display: block;
+    position: absolute;
+    top:2rem;
+    left: 20rem;
+}
+
+.Form {
+    display: block;
+    position: absolute;
+    top:15rem;
+    left: 20rem;
+}
+
+.button {
+   display: block;
+    position: absolute;
+    top:32rem;
+    left: 20rem; 
 }
