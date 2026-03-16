@@ -3,15 +3,30 @@
   src: url(Norse-font/Norse/Norse.ttf);
 }
 
-.Odin-img {
+body {
     display: flex;
+    flex: 2.3;
+    min-height: 100vh;
+    gap: 2rem;
+}
+
+.left-section {
+    display: flex;
+}
+
+.background-img {
+    display: flex;
+    margin: -1rem;
+}
+
+.Odin-img {
+    display: flex ;
     position: absolute;
-    align-items: center;
-    left: 0.5rem;
-    top: 8rem;
+    top: 10rem;
+    left: 0rem;
     background-color: black;
-    opacity: 90%;
-    padding: 0.8rem;
+    opacity: 80%;
+    padding: 0.5rem 5.3rem 0.5rem 5.3rem;
 }
 
 
@@ -21,25 +36,4 @@
     background-color: black;
     color: white;
     font-size: 6rem;
-}
-
-.main-content {
-    display: block;
-    position: absolute;
-    top:2rem;
-    left: 20rem;
-}
-
-.Form {
-    display: block;
-    position: absolute;
-    top:15rem;
-    left: 20rem;
-}
-
-.button {
-   display: block;
-    position: absolute;
-    top:32rem;
-    left: 20rem; 
 }
