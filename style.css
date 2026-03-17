@@ -52,12 +52,14 @@ body {
 
 .main {
     padding: 2.5rem;
+    padding-top: 1rem;
     border: solid 1px white;
     box-shadow: 50px -3px whitesmoke;
 }
 
 .form-main {
   padding: 2.5rem;
+  padding-top: 0rem;
 }
 
 .h2 {
@@ -103,7 +105,11 @@ input:focus {
 
 input[type="password"] {
   letter-spacing: 0.3em;
-  border-color: red;
+  border-color: #E5E7EB;
+}
+
+input[type="password"]:invalid {
+  border: red;
 }
 
 .form-actions {
@@ -113,7 +119,7 @@ input[type="password"] {
 }
 
 .btn-create {
-  background-color: green;
+  background-color: #596D48;
   color: white;
   border: none;
   padding: 0.9rem 2.5rem;
@@ -135,7 +141,7 @@ input[type="password"] {
 }
 
 .login-link a {
-  color: green;
+  color: #596D48;
   text-decoration: none;
   font-weight: 600;
 }
